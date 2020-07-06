@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1240px;
+  height: 100%;
+}
+
+.btn-primary {
+  padding: 10px 28px;
+  color: white;
+  border-radius: 4px;
+  background: #01996d;
+}
 @tailwind utilities;
