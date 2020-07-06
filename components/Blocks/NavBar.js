@@ -22,7 +22,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div id="cta-buttons flex items-end h-full">
-          <a className="mr-8 text-black">Sign In</a>
+          <a className="mr-8 text-black">Sign in</a>
           <button className="btn-primary">Start Trial</button>
         </div>
       </div>

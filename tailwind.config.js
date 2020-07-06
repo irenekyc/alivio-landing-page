@@ -18,6 +18,7 @@ module.exports = {
       },
       fontSize: {
         headingText: "55px",
+        headingTextS: "50px",
         cardHeading: "150px",
       },
       width: {
