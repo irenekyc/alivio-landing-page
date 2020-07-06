@@ -18,6 +18,16 @@ module.exports = {
       },
       fontSize: {
         headingText: "55px",
+        cardHeading: "150px",
+      },
+      width: {
+        card: "390px",
+      },
+      opacity: {
+        "20": "0.2",
+      },
+      margin: {
+        negative45: "-45px",
       },
     },
   },
