@@ -3,7 +3,10 @@ import Section from "../../layout/Section";
 const Footer = () => {
   return (
     <Section bg="bg-darkGreen">
-      <div id="footer-main-container">
+      <div
+        id="footer-main-container"
+        className="text-center LTS:text-left max-w-xs mx-auto LTS:mx-0"
+      >
         <div id="footer-logo" className="mb-16">
           <img src="assets/images/Alivio_logo_white.png" alt="Alivio Logo" />
         </div>

@@ -1,6 +1,11 @@
 module.exports = {
   purge: false,
   theme: {
+    screens: {
+      LTS: "1024px",
+      LTL: "1440px",
+      XL: "1920px",
+    },
     fontFamily: {
       heading: ["Georgia", "sans-serif"],
       body: ["Lato", "sans-serif"],

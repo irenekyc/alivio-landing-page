@@ -1,11 +1,14 @@
 const Heading = () => {
   return (
     <div
-      className="w-full h-full bg-cover"
+      className="w-full h-full bg-no-repeat bg-center bg-cover text-center LTS:text-left"
       style={{ backgroundImage: `url("assets/images/BG.png")` }}
     >
       <div className="wrapper flex items-center">
-        <div id="heading-text-container" className="max-w-sm pb-40">
+        <div
+          id="heading-text-container"
+          className="max-w-sm mx-auto pb-40 LTS:mx-0"
+        >
           <h1 className="font-heading text-primary font-bold text-headingText mb-8">
             Be aware, Manage well.
           </h1>

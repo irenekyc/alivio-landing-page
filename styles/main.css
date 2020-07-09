@@ -1,10 +1,16 @@
 @tailwind base;
 @tailwind components;
 .wrapper {
-  width: 80%;
+  width: 92%;
   margin: 0 auto;
   max-width: 1240px;
   height: 100%;
+}
+
+@media (min-width: 425px) {
+  .wrapper {
+    width: 80%;
+  }
 }
 
 .btn-primary {
